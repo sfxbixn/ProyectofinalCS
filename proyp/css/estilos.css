@@ -1,0 +1,72 @@
+/* -- HEADER --*/
+
+body, html{
+    background-image: url(../images/4.jpg);
+    height: 100;
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.navbar {
+    margin-bottom: 20px;
+    padding: 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#2271b3;
+}
+.active a{
+    background-color :#0b4a7e !important;
+}
+.navbar-brand-inverse .nav li a{
+    color: rgb(255, 255, 255);
+}
+.content{
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    background: #ffff;
+}
+.jumbotron {
+    background:#E02C06;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.jumbotron .titulo-pag{
+    font-size: 80px;
+}
+.dropdown{
+    background: #2271b3;
+    color: #ffffff;
+}
+
+.dropdown-toggle{
+    background: #2271b3;
+    color: #ffffff;
+}
+.navbar-inverse .nav li a{
+    color: rgb(255, 255, 255);
+}
+.navbar-inverse .nav li a:hover{
+    color:rgb(0, 0, 0) !important;
+  }
+  
+.pregresp {
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ffff;
+    }
+    
+.pregunta {
+    color: rgb(0, 58, 145);
+}
+    
+.respuestas {
+    color: #000000;
+}
